@@ -42,4 +42,5 @@ int main(void)
     {
         printf("woah!\n");
     }
+    return 0;
 }
