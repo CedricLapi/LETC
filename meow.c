@@ -31,7 +31,7 @@ int main(void)
 }
 */
 
-
+/*
 //For loop version
 
 #include<stdio.h>
@@ -44,3 +44,43 @@ int main(void)
     }
     return 0;
 }
+
+*/
+
+
+
+// Infinite for loop
+
+#include<stdio.h>
+
+int main(void)
+{
+
+for(int i = 0; ;i++) //just remove the boolean expression for an infinite loop
+{
+    printf("meowh\n");
+}
+return 0;
+}
+
+
+
+
+
+
+/*
+//Infinite while loop
+#include<stdio.h>
+int main(void)
+{
+    int i = 0;
+    while(1) //Use 1 for an infinite loop
+    {
+        printf("meowh\n");
+        i++;
+    }
+
+    return 0;
+}
+
+*/
