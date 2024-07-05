@@ -48,7 +48,7 @@ int main(void)
 */
 
 
-
+/*
 // Infinite for loop
 
 #include<stdio.h>
@@ -62,6 +62,8 @@ for(int i = 0; ;i++) //just remove the boolean expression for an infinite loop
 }
 return 0;
 }
+
+*/
 
 
 
@@ -84,3 +86,22 @@ int main(void)
 }
 
 */
+
+
+
+void meowh(void)
+{
+    printf("meowh meowh!\n");
+}
+
+
+#include<stdio.h>
+
+int main(void)
+{
+    for(int i = 0; i < 3; i++)
+    {
+        meowh();
+    }
+    return 0;
+}
