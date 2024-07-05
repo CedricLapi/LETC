@@ -89,19 +89,20 @@ int main(void)
 
 
 
-void meowh(void)
-{
-    printf("meowh meowh!\n");
-}
-
+void meowh(int n);
 
 #include<stdio.h>
 
 int main(void)
 {
-    for(int i = 0; i < 3; i++)
-    {
-        meowh();
-    }
-    return 0;
+    meowh(7);
+}
+
+
+void meowh(int n)
+{
+   for (int i = 0; i < n; i++)
+   {
+     printf("meowh meowh!\n");
+   }
 }
