@@ -12,7 +12,7 @@ int main(void)
     printf("let y be ");
     scanf("%i", &y);
 
-    int z = add(x, y);
+    int z = add(x, y); // The expression establishing the relationship a = x and b = y; 
     printf("so the sum is: %i\n ", z);
 
     return 0;
