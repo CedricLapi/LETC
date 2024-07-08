@@ -1,4 +1,5 @@
 
+
 #include<stdio.h>
 
 int add(int a, int b);
@@ -7,18 +8,18 @@ int main(void)
 {
     int x, y;
 
-    printf("x is: ");
+    printf("let x ");
     scanf("%i", &x);
 
-    printf("y is: ");
+
+    printf("let y ");
     scanf("%i", &y);
 
-    
-    printf("the sum is %i\n", add(x, y) );
 
-    return 0;
+    printf("the sum is then: %i\n", add(x, y));
 
 }
+
 
 
 int add(int a, int b)
