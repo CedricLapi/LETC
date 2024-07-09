@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 void  print_column(int height);
+
 int main(void)
 {
     int height;
@@ -9,6 +10,7 @@ int main(void)
     scanf("%i", &height);
     print_column(height);
 }
+
 
 void print_column(int height)
 {
