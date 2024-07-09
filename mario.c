@@ -5,6 +5,8 @@ int main(void)
 {
     int x;
 
+    //Prompt user for positive integer
+
     do{
 
     printf("the size is: ");
@@ -13,6 +15,7 @@ int main(void)
     while(x < 1);
 
 
+    //Print an n-by-n grid of bricks
     for(int i = 0; i < x; i++)
     {
         for(int j = 0; j < x; j++)
@@ -21,6 +24,7 @@ int main(void)
         }
         printf("\n");
     }
+
 
     return 0;
 }
