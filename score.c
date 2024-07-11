@@ -3,21 +3,17 @@
 
 int main(void){
 
-    int score[3];
+    const int N = 3;
+    int score[N];
 
-     
-    printf("first number is: ");
-    scanf("%i", &score[0]);
+    for(int i = 0; i <= N; i++){
 
-    printf("second number is: ");
-    scanf("%i", &score[1]);
+        printf("the number is: ");
+        scanf("%i", &score[i]);
+    } 
 
-    printf("third number is: ");
-    scanf("%i", &score[2]);
     
-
-
-    printf("Average: %f", (score[0] + score[1] + score[2]) / 3.0);
+    printf("Average: %f", (score[0] + score[1] + score[2]) / N);
 
     return 0;
 }
