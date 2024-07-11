@@ -10,6 +10,12 @@ int main(void){
     printf("i am %.1f percent ready to move on ", 99.9);
     printf("to the next chapter!\n");
 
+
+    /* for (int i = 0; i < 25; i++)
+    {   printf("this is %d\n", i);
+        printf("i\n");
+    } */
+
     return 0;
 
 }
