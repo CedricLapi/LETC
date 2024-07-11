@@ -25,6 +25,7 @@ printf("Average: %f\n", average(N, scores));
 
 float average(int length, int array[])
 {
+    
     //Calculate average
 
     int sum = 0;
