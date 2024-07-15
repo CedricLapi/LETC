@@ -33,9 +33,11 @@ int main(void)
     Kid1[4] = 'e';
     Kid1[5] = '\0'; //Never forget the string terminator so c knows when the string ends
 
-    strcpy (Hero3, "The Incredible Hulk");
-
+     strcpy (Hero3, "The Incredible Hulk");
+ 
     printf("%s\'s favorite hero is %s.\n", Kid1, Hero1);
     printf("%s\'s favorite hero is %s.\n", Kid2, Hero2);
     printf("%s\'s favorite hero is %s.\n", Kid3, Hero3); 
+
+    return 0;
 }
