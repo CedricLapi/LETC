@@ -6,6 +6,7 @@
 int main(void)
 
 {
+    
     int age;
     char childname[14] = "Thomas";
     printf("\n%s have %d kids. \n", FAMILY, KIDS);
