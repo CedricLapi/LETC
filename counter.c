@@ -39,3 +39,9 @@ int main(void)
 }
 
 //lossCount = lossCount + 1; // counter variable ; adds 1 to lossCount variable
+
+//sales = sales * 1.25; increases sales by 25%
+
+//lossCount = lossCount += 1; // compound addition operator
+
+//sales = sales *= 1.25; //compound multiplication operator
