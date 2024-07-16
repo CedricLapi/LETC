@@ -17,14 +17,19 @@ int main(void){
     //Making sure that the year is making sense
     //The statement will only execute if the year is before the current year
 
+
+    printf("What year were you born?\n");
+    scanf(" %d", &yearBorn);
+
+
     if (yearBorn > CURRENTYEAR) 
     {
         printf("Really? You haven't been born yet?\n");
-        printf("Want to try again with a different year?\n");
-
-        printf("What year were you born?\n");
-        scanf(" %d", &yearBorn);
+        printf("Congratulation on time travel!\n");
+ 
     }
+
+    else{
 
     age = CURRENTYEAR - yearBorn;
     printf("\nSo this year you will turn %d on your birthday!\n", age);
@@ -34,6 +39,8 @@ int main(void){
     if ((yearBorn % 4) == 0)
     {
         printf("\nYou were born in a Leap Year--cool!\n");
+    }
+
     }
 
     return 0;
