@@ -32,5 +32,5 @@ int main(void)
     printf("\nand have %d slices of %s pizza!\n", slices, topping);
     printf("It will only cost you $%.2f!\n\n\n", cost);
 
-    return 0;
+    return 0; 
 }
