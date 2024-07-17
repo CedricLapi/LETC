@@ -69,6 +69,30 @@ int main(void)
             printf("Not enough time!\n\n");
         }
 
+
+        // This final logical statement uses the NOT operator test
+        // whether the number of baseball players on a team added
+        // to the number of basketball players on a team is NOT
+        // greater than the number of football players on
+        // a team. If so, the statements will print.
+
+
+        if (! (baseball + basketball > football))
+
+        {
+            printf("\nThere are fewer baseball and basketball players\n");
+            printf("combined than football players.");
+
+        }
+
+        else
+        {
+            printf("\nThere are more baseball and basketball players\n");
+            printf("combined than football players.");
+
+            return 0;
+        }
+
     
 
 
