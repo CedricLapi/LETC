@@ -44,6 +44,33 @@ int main(void)
         printf("Avengers (or both!)");
     }
 
+    // This second logical statement uses the OR operator to test
+    //whether the number of Star Wars movies is less than months
+    //in the year OR the number of Harry Potter books is less
+    //than
+    //months in the year. If either statement is true,
+    //the statements will print.
+
+    if (
+        (starWars <= months) || (potterBooks <= months)
+        )
+
+        {
+            printf("\nYou could read one Harry Potter book a month,\n");
+            printf("and finish them all in less than a year,\n");
+            printf("OR you could see one Star Wars movie a month,\n");
+            printf("and finish them all in less than a year.\n");
+        }
+
+        else
+        {
+            printf("Neither can happen--too many books or movies,\n");
+
+            printf("Not enough time!\n\n");
+        }
+
+    
+
 
 
 
