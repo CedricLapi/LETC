@@ -11,7 +11,7 @@ int main(void)
 {
     int ctr = 0;
 
-    printf("the counter is at %d", ++ctr);
+   /*  printf("the counter is at %d", ++ctr);
     printf("\nthe counter is at %d", ++ctr);
     printf("\nthe counter is at %d", ++ctr);
     printf("\nthe counter is at %d", ++ctr);
@@ -20,6 +20,21 @@ int main(void)
     printf("\nthe counter is at %d", --ctr);
     printf("\nthe counter is at %d", --ctr);
     printf("\nthe counter is at %d", --ctr);
-    printf("\nthe counter is at %d", --ctr);
+    printf("\nthe counter is at %d", --ctr); */
+
+
+
+    printf("the counter is at %d", ctr++);
+    printf("\nthe counter is at %d", ctr++);
+    printf("\nthe counter is at %d", ctr++);
+    printf("\nthe counter is at %d", ctr++);
+    printf("\nthe counter is at %d", ctr++);
+
+    printf("\nthe counter is at %d", ctr--);
+    printf("\nthe counter is at %d", ctr--);
+    printf("\nthe counter is at %d", ctr--);
+    printf("\nthe counter is at %d", ctr--);
+    printf("\nthe counter is at %d", ctr--);
+
     
 }
