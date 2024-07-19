@@ -52,9 +52,25 @@ int main(void)
 
     // Check whether it's their best-rated movie so far
 
-    
+    if (rating > favRating)
+    {
+        strcpy(favorite, movieName);
+        favRating = rating; 
+    }
 
 
+    //Check whether it's their worst-rated movie so far
+
+    if (rating < leastRating)
+    {
+        strcpy (least, movieName);
+        leastRating = rating;
+    }
+
+printf("\nYour Favorite Movie was %s. \n", favorite);
+printf("\nYour Least-favorite Movie was %s. \n", least);
+
+return 0;
 }
 }
 
