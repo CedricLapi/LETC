@@ -41,9 +41,8 @@ for (numTest = 0; numTest < 25; numTest++)
 }
 
 avg = total / numTest;
-printf("\nThe average is %.1f%%. \n", avg);
+printf("\nThe average is %.1f%%.\n", avg);
 
 return 0;
-
 
 }
