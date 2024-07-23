@@ -9,7 +9,7 @@ switch statement. */
 
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> // This is for any program that uses the exit() function call
 
 int main(void)
 
