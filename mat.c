@@ -1,4 +1,13 @@
 
+
+/* 
+*mat.c
+*C Programming math function
+*by Cedric Lapi
+*2024/07/24
+ */
+
+
 /* This program demonstrates the math functions from the c math.h
 librar, so that you can get your homework right thanks to some quick-and-easy programming. */
 
@@ -48,3 +57,5 @@ int main(void)
 
 
 }
+
+        /* eof */
