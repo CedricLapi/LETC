@@ -22,8 +22,16 @@ char name[] = "Italy"; /* Initialisation of a character array */
 
 
 /* definition of the array */         /* initialization of the array */
-int vals[5] = {10, 40, 70, 90, 120};
-printf ( "%i\n" , vals );
+int va[5] = {10, 40, 70, 90, 120};
+//printf( "%d" , va[0] );
+
+
+
+for ( int i = 0 ; i < va[i] ; i++ ){
+
+    printf( "%d\n" , va[i] );
+}
+
 
 
 char grades[5] = {'A', 'B', 'C', 'D', 'F'};
