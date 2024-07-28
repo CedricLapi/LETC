@@ -1,3 +1,12 @@
+
+/* 
+*array_data_search.c
+*searching array data in C Programming
+*by Cedric Lapi
+*2024/07/28 
+ */
+
+
 /*  This program creates an array of 10 game scores for a basketball player.
 The scores from the first six games are in the program and the scores from the last four are inputted by the user.
  */
@@ -37,3 +46,6 @@ int main(void){
     return (0);
 
 }
+
+
+    /* eof */
