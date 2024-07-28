@@ -27,7 +27,7 @@ int va[5] = {10, 40, 70, 90, 120};
 
 
 
-for ( int i = 0 ; i < va[i] ; i++ ){
+for ( int i = 0 ; i < 5 ; i++ ){
 
     printf( "%d\n" , va[i] );
 }

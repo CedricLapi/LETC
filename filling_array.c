@@ -1,4 +1,12 @@
 
+/* 
+*filling_array.c
+*Filling array elements in C Programming
+*by Cedric Lapi
+*2024/07/28
+ */
+
+
 #include <stdio.h>
 
 int main (void) {
@@ -20,3 +28,6 @@ int main (void) {
          printf( "%d\n" , ages[i] );
     }
 }
+
+
+/* eof */
