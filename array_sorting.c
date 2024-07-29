@@ -42,7 +42,7 @@ int main(void){
 
     for ( outer = 0 ; outer < 9 ; outer++ ){
 
-        didSwap = 0; //means the list is been ordered.
+        didSwap = 0; //means the list is not been ordered.
 
         for ( inner = outer ; inner < 10 ; inner++ ){
 
@@ -54,11 +54,11 @@ int main(void){
 
                 nums[ outer ] = temp;
 
-                didSwap = 1;
+                didSwap = 0;
             }
         }
 
-        if ( didSwap == 0 )
+        if ( didSwap == 1 )
         {
             break;
         }
