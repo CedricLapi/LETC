@@ -1,4 +1,12 @@
 
+/* 
+*array_data_search.c
+*Searching array element in C Programming
+*by Cedric Lapi
+*2024/07/28
+ */
+
+
 /*  This program takes an ID number from the user and then checks the
 ID against a list of customers in the database. If the customer exists, it uses that array element to check their current
 balance
@@ -60,4 +68,6 @@ int main(void) {
 
 
 }
+
+/* eof */
 
