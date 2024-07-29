@@ -1,3 +1,10 @@
+/* 
+*linked_array.c
+*Linked array in C Programming
+*by Cedric Lapi
+*2024/07/28
+ */
+
 
 
 /*  This program fills three arrays with a player's total points,
@@ -53,3 +60,6 @@ int main(){
     return (0);
 
 }
+
+
+    /* eof */
